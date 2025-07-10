@@ -182,8 +182,6 @@ python evaluate.py --model_path ./saved_model/full
 ## 👨‍💻 Author
 
 **Praharsh Vijay**  
-ID: 22098361  
-MSc Data Science (Advanced Research), University of Hertfordshire
 ---
 
 ## 📊 Detailed Epoch-wise Metrics
