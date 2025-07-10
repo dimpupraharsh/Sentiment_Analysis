@@ -82,7 +82,8 @@ Fine-tuning transformer-based models can be computationally expensive. This proj
 
 ### 🔻 Training and Validation Loss
 
-![Loss Plot](<img width="782" height="494" alt="Screenshot 2025-07-09 at 3 02 37 AM" src="https://github.com/user-attachments/assets/4e2d6396-82ca-4fee-b20c-c9e209bf84d7" />
+[Loss Plot]
+(<img width="782" height="494" alt="Screenshot 2025-07-09 at 3 02 37 AM" src="https://github.com/user-attachments/assets/4e2d6396-82ca-4fee-b20c-c9e209bf84d7" />
 )
 
 📌 **Observation**: Full fine-tuning converges fastest. Adapter tuning shows consistent reduction. MLP training is slowest due to frozen encoder.
