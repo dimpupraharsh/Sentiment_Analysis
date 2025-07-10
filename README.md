@@ -1,6 +1,6 @@
 # 🧠 Emotion Classification using BERT: A Comparative Study of Fine-Tuning Strategies
 
-![Model Visualization](https://your-repo-path/Screenshot-Model-Results.png)
+
 
 ## 📌 Project Overview
 
@@ -82,7 +82,8 @@ Fine-tuning transformer-based models can be computationally expensive. This proj
 
 ### 🔻 Training and Validation Loss
 
-![Loss Plot](./plots/loss_comparison.png)
+![Loss Plot](<img width="782" height="494" alt="Screenshot 2025-07-09 at 3 02 37 AM" src="https://github.com/user-attachments/assets/4e2d6396-82ca-4fee-b20c-c9e209bf84d7" />
+)
 
 📌 **Observation**: Full fine-tuning converges fastest. Adapter tuning shows consistent reduction. MLP training is slowest due to frozen encoder.
 
@@ -90,7 +91,8 @@ Fine-tuning transformer-based models can be computationally expensive. This proj
 
 ### 📈 Validation Accuracy
 
-![Accuracy Plot](./plots/val_accuracy.png)
+![Accuracy Plot](<img width="783" height="485" alt="Screenshot 2025-07-09 at 3 02 52 AM" src="https://github.com/user-attachments/assets/344b64e0-3793-4f4f-85c5-f1c6f00214f3" />
+)
 
 📌 **Observation**:  
 - Full: **94.2%**  
@@ -101,7 +103,8 @@ Fine-tuning transformer-based models can be computationally expensive. This proj
 
 ### 🧪 Test Set Metrics
 
-![Test Metrics Plot](./plots/test_metrics.png)
+![Test Metrics Plot](<img width="925" height="482" alt="Screenshot 2025-07-09 at 3 03 05 AM" src="https://github.com/user-attachments/assets/4e5d123a-bb22-4b22-8973-6f4fe6ae8eab" />
+)
 
 | Metric     | MLP   | Adapter | Full |
 |------------|-------|---------|------|
